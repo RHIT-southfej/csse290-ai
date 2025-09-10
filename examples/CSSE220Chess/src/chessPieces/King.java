@@ -30,9 +30,11 @@ public class King implements ChessPiece {
 		try {
 			img = ImageIO.read(new File(fileName));
 			graphics2.drawImage(img, x, y, squareSize, squareSize, null);
-		} catch (IOException e) {}
+		} catch (IOException e) {
+			System.out.println("Could not load image: " + fileName);
+			throw new RuntimeException(e);
+		}
 	}
-
 		
 	
 	@Override

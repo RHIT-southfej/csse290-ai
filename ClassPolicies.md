@@ -1,3 +1,18 @@
+# Tentative Schedule
+
+| Date     | #         | Topic                                                                                  |
+|----------|-----------|----------------------------------------------------------------------------------------|
+| 10-Sep   | 1         | Course Intro/Don't Cheat/3 Types of AI Interaction                                     |
+| 17-Sep   | 2         | Foundation models: GPT5 vs Claude Sonnet 4 vs ..., fast vs reasoning? (privacy)        |
+| 24-Sep   | 3         | Prompt Engineering: 371 to the rescue!                                                 |
+| 1-Oct    | 4 (Convo) | SKIP - Resume Reading with LLM Activity?                                               |
+| 8-Oct    | 5         | Using Agentic AI - Integration with test cases, stopping when it starts acting crazy   |
+| 15-Oct   | 6         | Programmatic calls to OpenAI models                                                    |
+| 22-Oct   | 7         | Prompting with a Live AI Backend                                                       |
+| 29-Oct   | 8         | LLMs as Business Tools                                                                 |
+| 5-Nov    | 9         | MCP servers                                                                            |
+| 12-Nov   | 10        | Maintenance / Key Takeaways                                                            |
+
 # Grades
 
 This course is a prototype and therefore is not as elaborate as most

@@ -19,7 +19,7 @@ for you, based on a short header name.
 
 Include in your submission:
 
-(a) the short function name that generated a lot of tetx for you
+(a) the short function name that generated a lot of text for you
 (b) the code it generated
 
 ## Step 2: Try a local command
@@ -40,7 +40,7 @@ something that requires knowledge of a class outside the local file.
 Include in your submission:
 
 (a) The function code it generated for you
-(b) The erronous code it generated for it, if you were able to trick it
+(b) The erroneous code it generated for it, if you were able to trick it
 
 ## Step 3: Try a Agent Command
 

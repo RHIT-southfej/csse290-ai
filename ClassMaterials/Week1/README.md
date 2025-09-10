@@ -6,6 +6,9 @@ Github Copilot installed and working.  This could be a project of your
 own or homework from some past course.  It's best if you can still run
 the code.
 
+To produce the document you submit, just cut and space either screenshots 
+or code into a word doc or similar.
+
 ## Step 1: Try the autocompletion
 
 Go to some random file or class and begin writing a function with a
@@ -56,3 +59,5 @@ If it doesn't get it right at first, interact with it and see if you
 can get it closer to a working implementation.
 
 It's not required you get it working, but play with it a bit.
+
+(a) Include some example code that got generated

@@ -20,7 +20,7 @@ Please do the above first and think carefully!  For you to evaluate
 the AI's reasoning you need a nice meaty topic and you'll only have
 limited prompts to get the job done.
 
-Go to www.peplexity.ai and be sure you've selected the "Research"
+Go to https://www.perplexity.ai/ and be sure you've selected the "Research"
 option.
 
 Be careful here - I think you get only 3 questions per day, and I'm

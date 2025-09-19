@@ -12,7 +12,7 @@ particular goal that you might want to convey to someone who doesn't
 have as much knowledge as you: maybe you wanna explain why a
 particular item is critical to the character's build, or express how
 the differences between the science in the book and TV version
-reflected the differing themes.  Pick things that are obsure, but have
+reflected the differing themes.  Pick things that are obscure, but have
 broadly a "right answer" in your view, and that you feel strongly
 about.
 
@@ -55,16 +55,16 @@ class LLM thing)
 ## Step 1b: Focus the analysis
 
 It's a cool thing to generate a detailed analysis in a few minutes,
-but sometimes that obscure a more critical question - is the analysis
+but sometimes that obscures a more critical question - is the analysis
 actually a good analysis in that it generates the most important
 points?
 
 You'll probably find that although its analysis is interesting - it
-doesn't focus on what you consider most important.  Redirect it's
+doesn't focus on what you consider most important.  Redirect its
 focus to what you consider most important:
 
     Change the focus to talk about the idea of a playbook, what makes
-    a good playbook, and how that influenced other games
+    a good playbook, and how that influenced other games.
 
 ## Step 2a: Have an argument
 
@@ -84,10 +84,10 @@ have it take a position:
 
 Take a look at its argument and see if it really holds water.  AI and
 human writers both have a tendency to want to take all sides - rather
-than actually articulating a single coherient position - see if it
+than actually articulating a single coherent position - see if it
 avoided that in this case.
 
-Write me 3 sentence analysis of the AIs arguement, focusing on wether
+Write me a 3 sentence analysis of the AI's argument, focusing on whether
 you think the position the AI took was (a) correct and (b) well
 justified.
 

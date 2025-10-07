@@ -6,7 +6,7 @@ In the Spring, I wrote an assignment in CSSE 376 Software Quality Assurance for 
 
 
 
-1. Try to generally follow the same instructions in the original document: [LLM Lab.docx](./LLM Lab.docx)
+1. Try to generally follow the same instructions in the original document in this folder, LLM Lab.docx. The code is provided here as well.
 2. Wherever it says to use **Edit Mode** or **Copilot Edits**, instead use **Agent Mode**. (you may need to enable this setting in your IDE)
 3. Use the freely available GPT5-mini.
 

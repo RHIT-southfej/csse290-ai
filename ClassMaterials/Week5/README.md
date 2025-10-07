@@ -1,4 +1,4 @@
-\# Agent Mode Assignment
+# Agent Mode Assignment
 
 
 
@@ -12,7 +12,7 @@ In the Spring, I wrote an assignment in CSSE 376 Software Quality Assurance for 
 
 
 
-\## Get the trial version of the Cursor IDE
+## Get the trial version of the Cursor IDE
 
 While you can do this in VS Code per the original instructions, to get the full experience of doing development with an AI Agent, I want you to instead get a trial of an IDE called Cursor. Cursor is just a reskin of VS Code, but the developers added some static prompting and optical illusions to make it appear to go faster than VS Code.
 

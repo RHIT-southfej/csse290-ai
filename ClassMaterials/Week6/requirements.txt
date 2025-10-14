@@ -1,0 +1,4 @@
+pgeocode
+requests
+python-dotenv
+openai

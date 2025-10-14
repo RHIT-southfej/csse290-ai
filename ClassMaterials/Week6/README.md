@@ -35,7 +35,8 @@ The actual key will be much longer.
 
 The .gitignore file is set up not to commit your .env with the key. 
 
-
+To run from the terminal, use: python weather_wear_cli.py
+Including the given requirements.txt file in the same folder as your code should cause it to install the dependencies when you run the python script.
 
 
 

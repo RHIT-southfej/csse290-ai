@@ -20,7 +20,8 @@ While you can do this in VS Code per the original instructions, to get the full 
 
 Again, if you have VS Code, you can also enable Agent Mode in that, but VS Code's Agent Mode feels much slower than Cursor's equivalent. Both IDEs use the same underlying LLMs and any differences you see in the lists are just a question of how much money you are paying for them.
 
+# Submission instructions
 
-
+There is a Week 5 dropbox on Moodle. Zip up your code and turn it in there.
 
 

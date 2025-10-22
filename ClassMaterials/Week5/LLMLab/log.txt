@@ -1,0 +1,23 @@
+Stage: 1
+Copilot Edits Prompt: Implement the Stage 1 rules of the game in AIGeneratedCode/BusinessLogic.java so that it passes all tests. #codebase.
+LLM: GPT-5
+Test Results: Passed
+Changes I had to make to the AI-generated code: None
+
+Stage: 2
+Copilot Edits Prompt: Implement the Stage 2 rules of the game in AIGeneratedCode/BusinessLogic.java so that it passes all tests. #codebase. Create tests for it.
+LLM: GPT-5
+Test Results: Passed
+Changes I had to make to the AI-generated code: None
+
+Stage: 3
+Copilot Edits Prompt: Implement the Stage 3 rules of the game in AIGeneratedCode/BusinessLogic.java so that it passes all tests. #codebase. Create tests for it.
+LLM: GPT-5
+Test Results: Passed
+Changes I had to make to the AI-generated code: None
+
+Stage: 4
+Copilot Edits Prompt: Implement the Stage 4 rules of the game in AIGeneratedCode/BusinessLogic.java so that it passes all tests. #codebase. Create tests for it.
+LLM: GPT-5
+Test Results: Passed
+Changes I had to make to the AI-generated code: None

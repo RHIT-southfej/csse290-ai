@@ -1,10 +1,16 @@
-# TODO: Your name here 
+# TODO: Emmet Southfield
 # TODO: Once you have spent up to an hour coding, write a short reflection here. 
 # Include anything interesting you learned while developing this. Like,
 #    a. Did it get it right the first time? Or not? Explain.
+#           No. It never got it right. It kept using some outdated API, and I couldn't figure out how to do it
+#           on my own, so I never ended up with working code :sad:. I wish I had been able to get it to work.
 #    b. If you made the call with the same input twice, 
 #       did the AI give the same clothing suggestions?  
+#           See previous answer for lack of answer here. However, I tried it on the web interface
+#           using different contexts, and it produced a slightly different answer both times, but largely the same.
 #    c. Describe another app of interest to you that would benefit from a call to an LLM.
+#           I'd love to see videos games where characters are actually controlled by AI
+#           rather than this "AI" (hard-coded) behavior that we are used to.
 
 import json
 import os
@@ -87,10 +93,46 @@ def get_clothing_recommendation(date, zipcode, weather, gender, api_key):
     # TODO. Fill in the function to call OpenAI's API.
     # Hint: to process the response, you might find json.loads() and json.dumps() useful.
     print(f"Getting clothing recommendations from OpenAI...")    
+
+    client = openai.OpenAI(api_key=api_key)
     model = "gpt-4o-mini"
 
+    # Example JSON format the model must return
+    sample_json = json.dumps({
+        "head": "e.g. baseball cap or knit hat",
+        "torso": "e.g. light jacket, sweater",
+        "legs": "e.g. jeans or shorts",
+        "feet": "e.g. sneakers or rain boots",
+        "notes": "any extra notes"
+    }, indent=2)
 
- 
+    prompt = (
+        f"Given the following weather data: {weather}, "
+        f"provide clothing recommendations for a {gender} on {date} in {zipcode}. "
+        f"The weather description is '{weather['weather_description']}'. "
+        f"Please provide the recommendation in a JSON format with keys like 'head', 'torso', 'legs', and 'feet'."
+        f"Here is an example of the JSON format. **You must use this format **\n"
+        f"{sample_json}\n"
+    )
+
+    messages = [
+        {"role": "system", "content": "You are a fashion consultant with knowledge of American fashion and what fashion is appropriate to wear for the average person."},
+        {"role": "user", "content": prompt}
+    ]
+
+    response
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            response_formats={"type": "json_object"}
+        )
+    except:
+        print("MESSAGE FAILED!")
+    print(response)
+    recommendation = json.loads(response.choices[0].message.content)
+    print(recommendation)
+
 def print_options(user_data):
     print("\nOptions:")
     print(f"a) Enter date (currently set to {user_data['date']})")
